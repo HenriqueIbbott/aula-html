@@ -1,0 +1,16 @@
+#cabeçario {
+    background-color:navy;
+    color: white;
+    padding: 20px; 
+    text-align: center;
+}
+
+.destaque {
+    color:red;
+    font-size: 18px;
+}
+p { font-family: Arial, sans-serif;
+    line-height: 1.5;
+
+
+}

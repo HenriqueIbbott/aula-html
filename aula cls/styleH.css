@@ -1,0 +1,75 @@
+body {
+  background-color: #ffaa00; /* fundo laranja */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* ocupa a tela toda */
+}
+
+/* Caixa centralizada */
+.cardapio-categoria {
+  background: #ff0000;
+  padding: 40px;
+  max-width: 1000px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* Título principal */
+.cardapio-categoria h1 {
+  color: #00d9ff;
+  font-size: 2.5rem;
+  margin-bottom: 32px;
+}
+
+/* Layout de duas colunas */
+.duas-colunas {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+/* Cada coluna de hambúrguer */
+.coluna {
+  flex: 1;
+  background: #ff0000;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.coluna h2 {
+  color: #00f7ff;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+/* Cada item */
+.item {
+  margin-bottom: 28px;
+}
+
+.item h3 {
+  margin: 8px 0;
+  font-size: 1.4rem;
+  color: #222;
+}
+
+.item span {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #457b9d;
+  display: block;
+  margin-bottom: 12px;
+}
+
+.item img {
+  width: 200px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}

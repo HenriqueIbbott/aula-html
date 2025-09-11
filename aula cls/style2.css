@@ -1,0 +1,83 @@
+/* Faz a página ocupar a altura toda e empurrar o footer pro fim */
+body {
+  background-color: #ffaa00;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* garante altura total da tela */
+}
+
+/* Topo fixo */
+.topo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background: #e63946;
+  color: white;
+  padding: 24px 40px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  gap: 20px;
+}
+
+.logo {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.slogan {
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.slogan .seta {
+  font-size: 1.6rem;
+}
+
+/* Espaço pro topo não cobrir o conteúdo */
+.conteudo {
+  margin-top: 140px;
+  flex: 1; /* empurra o rodapé pro fim */
+}
+
+.conteudo h2 {
+  font-size: 2.8rem;
+  margin-bottom: 24px;
+}
+
+.menu-botoes {
+  margin-bottom: 24px;
+}
+
+.botao {
+  display: inline-block;
+  background: #e63946;
+  color: #fff;
+  padding: 14px 28px;
+  margin: 0 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.botao:hover {
+  background: #a83232;
+  transform: scale(1.05);
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: auto; /* garante que o rodapé vá pro fim */
+}

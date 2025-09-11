@@ -1,0 +1,57 @@
+body {
+  background-color: #ffaa00; /* fundo laranja */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* ocupa a tela toda */
+}
+
+/* Caixa centralizada */
+.cardapio-categoria {
+  background: hsl(0, 100%, 50%); /* branco */
+  padding: 40px;
+  width: 600px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* Título principal */
+.cardapio-categoria h1 {
+  color: #00c3ff; /* vermelho */
+  font-size: 2.5rem;
+  margin-bottom: 32px;
+}
+
+/* Container dos itens */
+.itens-cardapio {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+}
+
+/* Cada item */
+.item h3 {
+  margin: 8px 0;
+  font-size: 1.6rem;
+  color: #222;
+}
+
+.item span {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #457b9d; /* azul */
+  display: block;
+  margin-bottom: 12px;
+}
+
+.item img {
+  width: 200px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}

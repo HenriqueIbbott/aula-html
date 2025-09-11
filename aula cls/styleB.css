@@ -1,0 +1,53 @@
+body {
+  background-color: #ffaa00; /* fundo laranja */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center; /* centraliza horizontal */
+  align-items: center;     /* centraliza vertical */
+  height: 100vh;           /* ocupa a tela toda */
+}
+
+/* Caixa centralizada */
+.cardapio-categoria {
+  background: hsl(0, 100%, 50%); /* fundo branco */
+  padding: 40px;
+  width: 600px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+  text-align: center;
+}
+
+/* Título */
+.cardapio-categoria h1 {
+  color: #00d9ff; /* vermelho */
+  font-size: 2.5rem;
+  margin-bottom: 32px;
+}
+
+/* Cada item do cardápio */
+.item {
+  margin-bottom: 28px;
+}
+
+.item h3 {
+  margin: 8px 0;
+  font-size: 1.6rem;
+  color: #222;
+}
+
+.item span {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: hsl(203, 100%, 50%); /* azul */
+  display: block;
+  margin-bottom: 12px;
+}
+
+.item img {
+  width: 220px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}

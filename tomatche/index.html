@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <title>TOMATCHÊ - Busca de Receitas</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="cabeçario">
+        <h1>TOMATCHÊ</h1>
+    </div>
+
+    <div id="painelBusca">
+        <input type="text" id="barraPesquisa" placeholder="Buscar receita..." />
+        <button class="botao" onclick="adicionarReceita()">Adicionar Receita</button>
+    </div>
+
+    <div id="resultadoBusca">
+        <!-- Aqui aparecerão os resultados -->
+    </div>
+
+    <!-- Modal para adicionar receita -->
+    <div id="modalAdd" class="modal">
+        <div class="modal-conteudo">
+            <h2>Adicionar nova receita</h2>
+            <input type="text" id="nomeReceita" placeholder="Nome da receita" />
+            <textarea id="descricaoReceita" placeholder="Descrição da receita"></textarea>
+            <button class="botao" onclick="salvarReceita()">Salvar</button>
+            <button class="botao" onclick="fecharModal()">Cancelar</button>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
